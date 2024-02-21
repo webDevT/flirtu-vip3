@@ -513,10 +513,32 @@ a:hover
   display: flex
   font-size: 18px 
   font-weight: 600
+  margin-bottom: 3px
 .age
   margin-left: 3px
 //end updated style
-
+.user-info
+  background: #edeff6
+  border-radius: 10px
+  padding: 10px
+.user-info__sub-title
+  font-weight: 600
+.photo-profile
+  padding: 2px 
+  border: 3px solid #40677c 
+  border-radius: 50%
+  position: relative
+.photo-profile:after
+  content: ""
+  width: 19px
+  height: 19px
+  background: #16c60c
+  border: 3px solid #edeff6
+  border-radius: 50%
+  bottom: 0
+  right: 0
+  position: absolute
+  transform: translateX(-5px) translateY(-2px)
 @import "media"
 
 
