@@ -42,7 +42,7 @@ integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ
 
             <div class="user-info__content">
                 <div class="user-info__content-top">
-                    Euphrosyne liked you!
+                    <span class="user-info__user-name">Euphroisyneku</span> liked you!
                 </div>
 
                 <div class="user-info__sub-title">
@@ -77,5 +77,18 @@ integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ
         </div>
     </div>
     <!-- ---------------end content------------ -->
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+    var userNameSpan = document.querySelector('.user-info__user-name');
+
+    // Checking the length of text in an element
+    if (userNameSpan.textContent.length > 9) {
+        // Change the display property to block
+        userNameSpan.style.display = 'block';
+    }
+});
+
+    </script>
 
 </html>
